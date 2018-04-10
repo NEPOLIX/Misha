@@ -1,14 +1,70 @@
+# Gradle
+# ------
 .gradle
-/build/
+/build
+*/build
+*/*/build
+*/out
+*/*/out
+*/*/*/out
+*/*/*/build
+/target
 
-# Ignore Gradle GUI config
-gradle-app.setting
+local.properties
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
 
-# Cache of project
-.gradletasknamecache
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/misc.xml
+.idea/deployment.xml
+.idea/kotlinc.xml
+
+
+
+# OS X
+# ----
+.DS_Store
+
+# Logs
+# ----
+/*.log
+
+
+# Vim
+# ---
+*.sw[op]
+
+
+# IDEA
+# ----
+/*.iml
+/*.ipr
+/*.iws
+/out
+
+
+*.db
+
+#
+#
+*.misha-idea
+
+*.zip
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

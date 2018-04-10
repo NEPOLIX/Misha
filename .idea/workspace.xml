@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="617e020f-3670-40b6-a085-28296ebfe5dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Genio/GenioSchedulers/.gradle/" />
     <ignored path="$PROJECT_DIR$/Genio/GenioSchedulers/build/" />
@@ -400,13 +400,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MishaDB/MishaDBCold/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+                <state relative-caret-position="468">
+                  <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
                   <folding>
-                    <element signature="e#218#233#0" expanded="true" />
+                    <element signature="e#535#886#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -911,6 +911,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="558">
+                  <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -922,6 +931,7 @@
       <find>GenioModel</find>
       <find>genio</find>
       <find>com.amazonaws:aws-java-sdk</find>
+      <find>GetPropertyAction</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/MishaDB/MishaCache</dir>
@@ -4595,6 +4605,7 @@
         <option value="$PROJECT_DIR$/MishaLogger/README.md" />
         <option value="$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/LoggerConstants.java" />
         <option value="$PROJECT_DIR$/MishaDB/MishaDBCold/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -6089,15 +6100,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523296826732</updated>
-      <workItem from="1523296829330" duration="17856000" />
+      <workItem from="1523296829330" duration="18076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17856000" />
+    <option name="totallyTimeSpent" value="18076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="3840" height="2133" extended-state="6" />
+    <frame x="0" y="27" width="3840" height="2133" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -6118,7 +6129,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info id="Terminal" order="7" sideWeight="0.500255" side_tool="true" visible="true" weight="0.19251055" />
+      <window_info id="Terminal" order="7" sideWeight="0.500255" side_tool="true" weight="0.19251055" />
       <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49974504" visible="true" weight="0.19251055" />
       <window_info anchor="bottom" id="Gradle View" order="4" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -6139,9 +6150,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest-server.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MishaID/id.config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -6986,11 +6994,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MishaDB/MishaDBCold/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="468">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#218#233#0" expanded="true" />
+            <element signature="e#535#886#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -7022,7 +7037,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -7082,7 +7097,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Gradle: com.amazonaws:aws-java-sdk-acm:1.11.280</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
