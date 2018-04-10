@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="617e020f-3670-40b6-a085-28296ebfe5dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MishaDB/MishaNoSqlDB/src/main/java/com/nepolix/misha/db/aurora/driver/MishaDBNoSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/MishaDB/MishaNoSqlDB/src/main/java/com/nepolix/misha/db/aurora/driver/MishaDBNoSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/writer/LoggerFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/writer/LoggerFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MishaLogger/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/MishaLogger/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MishaServer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/MishaServer/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Genio/GenioSchedulers/.gradle/" />
     <ignored path="$PROJECT_DIR$/Genio/GenioSchedulers/build/" />
@@ -355,12 +358,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MishaServer/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="1170">
-                    <caret line="64" column="80" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
+                  <first_editor relative-caret-position="706">
+                    <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -432,8 +435,8 @@
           <file leaf-file-name="MishaDBNoSql.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MishaDB/MishaNoSqlDB/src/main/java/com/nepolix/misha/db/aurora/driver/MishaDBNoSql.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="914">
-                  <caret line="121" column="126" selection-start-line="121" selection-start-column="126" selection-end-line="121" selection-end-column="126" />
+                <state relative-caret-position="662">
+                  <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -443,6 +446,7 @@
                     <element signature="method#getInstance#0;class#MishaDBNoSql#0" expanded="true" />
                     <element signature="method#init#0;class#MishaDBNoSql#0" expanded="true" />
                     <element signature="method#init#1;class#MishaDBNoSql#0" expanded="true" />
+                    <element signature="method#fetchAllCollectionNames#0;class#MishaDBNoSql#0" expanded="true" />
                     <element signature="method#addIndexes#0;class#MishaDBNoSql#0" expanded="true" />
                     <element signature="method#call0Index#0;class#MishaDBNoSql#0" expanded="true" />
                     <element signature="e#5982#8031#0" expanded="true" />
@@ -821,8 +825,8 @@
             <entry file="file://$PROJECT_DIR$/MishaLogger/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="36">
-                    <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+                  <first_editor relative-caret-position="288">
+                    <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -911,11 +915,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="558">
-                  <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+                <state relative-caret-position="774">
+                  <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LoggerFileWriter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/writer/LoggerFileWriter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="28" column="22" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="22" />
+                  <folding>
+                    <element signature="initializer##0;class#LoggerFileWriter#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -929,9 +945,9 @@
       <find>.config</find>
       <find>MishaID</find>
       <find>GenioModel</find>
-      <find>genio</find>
       <find>com.amazonaws:aws-java-sdk</find>
       <find>GetPropertyAction</find>
+      <find>genio</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/MishaDB/MishaCache</dir>
@@ -4582,7 +4598,6 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/MishaTaskHandler/build.gradle" />
         <option value="$PROJECT_DIR$/MishaServer/RESTServer/src/main/java/com/nepolix/misha/web/server/xxx.sh" />
-        <option value="$PROJECT_DIR$/MishaServer/README.md" />
         <option value="$PROJECT_DIR$/MJSON/README.md" />
         <option value="$PROJECT_DIR$/WebClient/README.md" />
         <option value="$PROJECT_DIR$/MishaDB/build.gradle" />
@@ -4602,10 +4617,13 @@
         <option value="$PROJECT_DIR$/MishaID/src/main/java/com/nepolix/misha/id/core/MID.java" />
         <option value="$PROJECT_DIR$/MishaID/src/main/java/com/nepolix/misha/id/server/MIDServer.java" />
         <option value="$PROJECT_DIR$/MishaLogger/Logger/src/main/java/com/nepolix/misha/logger/client/Logger.java" />
-        <option value="$PROJECT_DIR$/MishaLogger/README.md" />
         <option value="$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/LoggerConstants.java" />
         <option value="$PROJECT_DIR$/MishaDB/MishaDBCold/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/MishaDB/MishaNoSqlDB/src/main/java/com/nepolix/misha/db/aurora/driver/MishaDBNoSql.java" />
+        <option value="$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/writer/LoggerFileWriter.java" />
+        <option value="$PROJECT_DIR$/MishaLogger/README.md" />
+        <option value="$PROJECT_DIR$/MishaServer/README.md" />
       </list>
     </option>
   </component>
@@ -5984,6 +6002,11 @@
               <item name="logger" type="462c0819:PsiDirectoryNode" />
               <item name="viewer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Misha" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Misha" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="MishaServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -6100,15 +6123,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523296826732</updated>
-      <workItem from="1523296829330" duration="18076000" />
+      <workItem from="1523296829330" duration="18382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18076000" />
+    <option name="totallyTimeSpent" value="18382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="3840" height="2133" extended-state="7" />
+    <frame x="0" y="27" width="3840" height="2133" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -6150,9 +6173,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MishaID/id.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -6302,16 +6322,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MishaScheduler/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MishaServer/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1170">
-            <caret line="64" column="80" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MJSON/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -6566,53 +6576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MishaDB/MishaNoSqlDB/src/main/java/com/nepolix/misha/db/aurora/driver/MishaDBNoSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="121" column="126" selection-start-line="121" selection-start-column="126" selection-end-line="121" selection-end-column="126" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#MishaDBNoSql#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#initInetAddress#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#getInstance#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#init#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#init#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#addIndexes#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#call0Index#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="e#5982#8031#0" expanded="true" />
-            <element signature="e#6286#6319#0" expanded="true" />
-            <element signature="method#getCollectionConnection#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#returnConnection#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#saveCollectionName#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#save#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#save#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#save#2;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#getCollectionIDs#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#getCollectionIDs#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#findOne#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#findOne#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#find#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#find#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#count#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#findObjects#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#findObjects#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#findOne#2;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#findOne#3;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#deleteCollection#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#delete#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#delete#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#deleteObjects#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#deleteObjects#1;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#deleteObjects#2;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#getObjectHash#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#getFieldHash#0;class#MishaDBNoSql#0" expanded="true" />
-            <element signature="method#cleanSlate#0;class#MishaDBNoSql#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6929,16 +6892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MishaLogger/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spawn.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -7004,8 +6957,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="774">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MishaDB/MishaNoSqlDB/src/main/java/com/nepolix/misha/db/aurora/driver/MishaDBNoSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#MishaDBNoSql#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#initInetAddress#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#getInstance#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#init#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#init#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#fetchAllCollectionNames#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#addIndexes#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#call0Index#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="e#5982#8031#0" expanded="true" />
+            <element signature="e#6286#6319#0" expanded="true" />
+            <element signature="method#getCollectionConnection#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#returnConnection#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#saveCollectionName#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#save#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#save#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#save#2;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#getCollectionIDs#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#getCollectionIDs#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#findOne#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#findOne#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#find#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#find#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#count#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#findObjects#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#findObjects#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#findOne#2;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#findOne#3;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#deleteCollection#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#delete#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#delete#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#deleteObjects#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#deleteObjects#1;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#deleteObjects#2;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#getObjectHash#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#getFieldHash#0;class#MishaDBNoSql#0" expanded="true" />
+            <element signature="method#cleanSlate#0;class#MishaDBNoSql#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MishaLogger/LoggerCommon/src/main/java/com/nepolix/misha/logger/writer/LoggerFileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="initializer##0;class#LoggerFileWriter#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MishaLogger/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MishaServer/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="706">
+            <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -7037,7 +7068,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -7097,7 +7128,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: com.amazonaws:aws-java-sdk-acm:1.11.280</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

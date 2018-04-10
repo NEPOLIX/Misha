@@ -60,16 +60,16 @@ class TestServer
 					 JSONException
 	 {
 			
-			TaskExceptionListener exceptionListenerGenioServer = e -> {
+			TaskExceptionListener exceptionListenerServer = e -> {
 				 JSONObject error = JSONException.exceptionToJSON ( e );
 				 Log        log   = Logger.getLogger ( ).buildLog ( "TEST-SERVER" , "LOG" , "ERROR" , "SERVER" , "TASK" );
 				 log.$addLogData ( LogTag.ERROR , "Task Exception\n" + MJSON.toString ( error ) , null );
 				 Logger.getLogger ( ).log ( log );
 			};
-			WebClient.getInstance ( ).getTaskRunner ( ).setExceptionListener ( exceptionListenerGenioServer );
+			WebClient.getInstance ( ).getTaskRunner ( ).setExceptionListener ( exceptionListenerServer );
 			JSONObject config = Config.getConfig ( "test" );
 			Server     server = Server.buildServerInstance ( getPort ( ) , false , config );
-			Server.getTaskEngine ( ).setExceptionListener ( exceptionListenerGenioServer );
+			Server.getTaskEngine ( ).setExceptionListener ( exceptionListenerServer );
 			if ( config.getBoolean ( "init_secure_session_id" ) )
 			{
 				 MishaID mishaID = MishaID.getMishaID ( );

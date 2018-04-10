@@ -42,30 +42,16 @@ class LoggerFileWriter
 			ROOT_LOG_PATH.mkdirs ( );
 			MAP_SERVER_IPs = new HashMap<> ( );
 			String[] serverIPs = new String[] {
-							"34.216.195.70" ,
-							"34.212.45.70" ,
-							"34.215.184.226"
+			
 			};
 			String[] serviceIPs = new String[] {
-							"54.200.51.90" ,
-							"34.212.170.190" ,
-							"35.162.21.214" ,
-							"34.210.68.131"
+			
 			};
 			String[] cacheNodeIPs = new String[] {
-							"52.38.110.193" ,
-							"52.43.253.238" ,
-							"34.214.76.157" ,
-							"54.200.15.144" ,
-							"52.35.126.23" ,
-							"34.213.246.82" ,
-							"34.214.191.121" ,
-							"35.167.3.26" ,
-							"35.165.166.200" ,
-							"52.24.174.84"
+			
 			};
-			String server  = "Genio Server";
-			String service = "Genio Service";
+			String server  = "Test Server";
+			String service = "Test Service";
 			int    i       = 0;
 			for ( String k : serverIPs )
 			{
@@ -82,11 +68,8 @@ class LoggerFileWriter
 			for ( String k : cacheNodeIPs )
 			{
 				 i++;
-				 MAP_SERVER_IPs.put ( k , "Genio Cache Node" + " " + i );
+				 MAP_SERVER_IPs.put ( k , "Test Cache Node" + " " + i );
 			}
-			MAP_SERVER_IPs.put ( "34.210.35.60" , "Genio Scheduler" );
-			MAP_SERVER_IPs.put ( "52.39.2.62" , "Misha ID - Genio" );
-			MAP_SERVER_IPs.put ( "34.216.204.107" , "Test Server" );
 	 }
 	 
 	 private final static LoggerFileWriter LOGGER_FILE_WRITER = new LoggerFileWriter ( );

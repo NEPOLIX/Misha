@@ -11,3 +11,7 @@ Logger SDK
 ###LoggerViewer
 Is a websocket client that listen to logger server for real-time log.
 *_only recommended for small platforms_*
+
+
+###LogerCommon
+set IPs in static block

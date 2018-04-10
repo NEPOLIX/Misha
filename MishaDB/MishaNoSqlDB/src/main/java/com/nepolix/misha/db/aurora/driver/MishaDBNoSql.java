@@ -58,14 +58,14 @@ class MishaDBNoSql
 	 }
 	 
 	 private static
-	 void initInetAddress ( String dbWriteEndPoint$GenioAuroraCluster ,
-													String dbReadEndPoint$GenioAuroraCluster ,
+	 void initInetAddress ( String dbWriteEndPoint$AuroraCluster ,
+													String dbReadEndPoint$AuroraCluster ,
 													String dbUserPass )
 	 {
 			
 			MishaDBConstants.DB_USER_PASS = dbUserPass;
-			MishaDBConstants.DB_WRITE_END_POINT_CLUSTER = dbWriteEndPoint$GenioAuroraCluster;
-			MishaDBConstants.DB_READ_END_POINT_CLUSTER = dbReadEndPoint$GenioAuroraCluster;
+			MishaDBConstants.DB_WRITE_END_POINT_CLUSTER = dbWriteEndPoint$AuroraCluster;
+			MishaDBConstants.DB_READ_END_POINT_CLUSTER = dbReadEndPoint$AuroraCluster;
 	 }
 	 
 	 public static
@@ -78,12 +78,12 @@ class MishaDBNoSql
 	 
 	 public static
 	 MishaDBNoSql init ( MishaID mishaID ,
-											 String dbWriteEndPoint$GenioAuroraCluster ,
-											 String dbReadEndPoint$GenioAuroraCluster ,
+											 String dbWriteEndPoint$AuroraCluster ,
+											 String dbReadEndPoint$AuroraCluster ,
 											 String dbUserPass )
 	 {
 			
-			initInetAddress ( dbWriteEndPoint$GenioAuroraCluster , dbReadEndPoint$GenioAuroraCluster , dbUserPass );
+			initInetAddress ( dbWriteEndPoint$AuroraCluster , dbReadEndPoint$AuroraCluster , dbUserPass );
 			if ( MishaDBConstants.DB_USER_PASS == null )
 			{
 				 throw new MissingResourceException ( "Please first call 'initInetAddress' to set the DB cluster and password" , MishaDBNoSql.class.getSimpleName ( ) , "address/pass" );
