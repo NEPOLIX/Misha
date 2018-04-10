@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":MishaLogger:main" external.linked.project.path="$MODULE_DIR$/../../../MishaLogger" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.nepolix.misha.logger" external.system.module.type="sourceSet" external.system.module.version="1.5" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../MishaLogger/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../MishaLogger/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../MishaLogger/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../MishaLogger/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="MishaServer_main" />
+    <orderEntry type="module" module-name="MishaTaskHandler_main" />
+    <orderEntry type="module" module-name="WebClient_main" />
+    <orderEntry type="module" module-name="MJSON_main" />
+    <orderEntry type="module" module-name="MishaGlobal_main" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.googlecode.libphonenumber:libphonenumber:8.8.0" level="project" />
+  </component>
+</module>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/Logger/Logger.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/Logger/Logger.iml" group="MishaLogger/Logger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerCommon/LoggerCommon.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerCommon/LoggerCommon.iml" group="MishaLogger/LoggerCommon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerCommon/LoggerCommon_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerCommon/LoggerCommon_main.iml" group="MishaLogger/LoggerCommon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerCommon/LoggerCommon_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerCommon/LoggerCommon_test.iml" group="MishaLogger/LoggerCommon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerViewer/LoggerViewer.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerViewer/LoggerViewer.iml" group="MishaLogger/LoggerViewer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerViewer/LoggerViewer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerViewer/LoggerViewer_main.iml" group="MishaLogger/LoggerViewer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerViewer/LoggerViewer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/LoggerViewer/LoggerViewer_test.iml" group="MishaLogger/LoggerViewer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/Logger/Logger_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/Logger/Logger_main.iml" group="MishaLogger/Logger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/Logger/Logger_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/Logger/Logger_test.iml" group="MishaLogger/Logger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MIDClient/MIDClient.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MIDClient/MIDClient.iml" group="MishaID/MIDClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MIDClient/MIDClient_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MIDClient/MIDClient_main.iml" group="MishaID/MIDClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MIDClient/MIDClient_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MIDClient/MIDClient_test.iml" group="MishaID/MIDClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MIDCommon/MIDCommon.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MIDCommon/MIDCommon.iml" group="MishaID/MIDCommon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MIDCommon/MIDCommon_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MIDCommon/MIDCommon_main.iml" group="MishaID/MIDCommon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MIDCommon/MIDCommon_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MIDCommon/MIDCommon_test.iml" group="MishaID/MIDCommon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MJSON/MJSON.iml" filepath="$PROJECT_DIR$/.idea/modules/MJSON/MJSON.iml" group="MJSON" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MJSON/MJSON_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MJSON/MJSON_main.iml" group="MJSON" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MJSON/MJSON_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MJSON/MJSON_test.iml" group="MJSON" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Misha-Platform.iml" filepath="$PROJECT_DIR$/.idea/modules/Misha-Platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Misha-Platform_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Misha-Platform_main.iml" group="Misha-Platform" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Misha-Platform_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Misha-Platform_test.iml" group="Misha-Platform" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaCache/MishaCache.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaCache/MishaCache.iml" group="MishaDB/MishaCache" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaCache/MishaCache_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaCache/MishaCache_main.iml" group="MishaDB/MishaCache" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaCache/MishaCache_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaCache/MishaCache_test.iml" group="MishaDB/MishaCache" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaDB.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaDB.iml" group="MishaDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaDBCold/MishaDBCold.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaDBCold/MishaDBCold.iml" group="MishaDB/MishaDBCold" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaDBCold/MishaDBCold_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaDBCold/MishaDBCold_main.iml" group="MishaDB/MishaDBCold" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaDBCold/MishaDBCold_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaDBCold/MishaDBCold_test.iml" group="MishaDB/MishaDBCold" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaDB_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaDB_main.iml" group="MishaDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaDB_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaDB_test.iml" group="MishaDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaGlobal/MishaGlobal.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaGlobal/MishaGlobal.iml" group="MishaGlobal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaGlobal/MishaGlobal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaGlobal/MishaGlobal_main.iml" group="MishaGlobal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaGlobal/MishaGlobal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaGlobal/MishaGlobal_test.iml" group="MishaGlobal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MishaID.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MishaID.iml" group="MishaID" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MishaID_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MishaID_main.iml" group="MishaID" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaID/MishaID_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaID/MishaID_test.iml" group="MishaID" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/MishaLogger.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/MishaLogger.iml" group="MishaLogger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/MishaLogger_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/MishaLogger_main.iml" group="MishaLogger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaLogger/MishaLogger_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaLogger/MishaLogger_test.iml" group="MishaLogger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaNoSqlDB/MishaNoSqlDB.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaNoSqlDB/MishaNoSqlDB.iml" group="MishaDB/MishaNoSqlDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaNoSqlDB/MishaNoSqlDB_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaNoSqlDB/MishaNoSqlDB_main.iml" group="MishaDB/MishaNoSqlDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaDB/MishaNoSqlDB/MishaNoSqlDB_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaDB/MishaNoSqlDB/MishaNoSqlDB_test.iml" group="MishaDB/MishaNoSqlDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaScheduler/MishaScheduler.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaScheduler/MishaScheduler.iml" group="MishaScheduler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaScheduler/MishaScheduler_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaScheduler/MishaScheduler_main.iml" group="MishaScheduler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaScheduler/MishaScheduler_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaScheduler/MishaScheduler_test.iml" group="MishaScheduler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/MishaServer.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/MishaServer.iml" group="MishaServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/MishaServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/MishaServer_main.iml" group="MishaServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/MishaServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/MishaServer_test.iml" group="MishaServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaTaskHandler/MishaTaskHandler.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaTaskHandler/MishaTaskHandler.iml" group="MishaTaskHandler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaTaskHandler/MishaTaskHandler_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaTaskHandler/MishaTaskHandler_main.iml" group="MishaTaskHandler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaTaskHandler/MishaTaskHandler_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaTaskHandler/MishaTaskHandler_test.iml" group="MishaTaskHandler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/RESTServer/RESTServer.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/RESTServer/RESTServer.iml" group="MishaServer/RESTServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/RESTServer/RESTServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/RESTServer/RESTServer_main.iml" group="MishaServer/RESTServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/RESTServer/RESTServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/RESTServer/RESTServer_test.iml" group="MishaServer/RESTServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/SocketServer/SocketServer.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/SocketServer/SocketServer.iml" group="MishaServer/SocketServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/SocketServer/SocketServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/SocketServer/SocketServer_main.iml" group="MishaServer/SocketServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MishaServer/SocketServer/SocketServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MishaServer/SocketServer/SocketServer_test.iml" group="MishaServer/SocketServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaskBroker/TaskBroker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TaskBroker/TaskBroker_main.iml" group="TaskBroker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaskBroker/TaskBroker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TaskBroker/TaskBroker_test.iml" group="TaskBroker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebClient/WebClient.iml" filepath="$PROJECT_DIR$/.idea/modules/WebClient/WebClient.iml" group="WebClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebClient/WebClient_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WebClient/WebClient_main.iml" group="WebClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebClient/WebClient_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WebClient/WebClient_test.iml" group="WebClient" />
+    </modules>
+  </component>
+</project>

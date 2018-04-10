@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":MishaID" external.linked.project.path="$MODULE_DIR$/../../../MishaID" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.nepolix.misha.id" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../MishaID">
+      <excludeFolder url="file://$MODULE_DIR$/../../../MishaID/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../MishaID/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../MishaID/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

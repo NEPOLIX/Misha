@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-inspector:1.11.311">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-inspector/1.11.311/99b751adde4f684c42be9d614e51a58839bb76ad/aws-java-sdk-inspector-1.11.311.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-inspector/1.11.311/6e413f9cd785b4c65319d61d320164eedd5522e1/aws-java-sdk-inspector-1.11.311-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

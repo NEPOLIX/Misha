@@ -1,0 +1,3 @@
+#!/bin/sh -e
+su ubuntu -c 'sh /home/ubuntu/cold_db-rc.sh >> /home/ubuntu/rc.local.log 2>&1 &'
+exit 0

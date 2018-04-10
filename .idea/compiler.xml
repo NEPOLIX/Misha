@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Jigsaw_main" target="1.8" />
+      <module name="Jigsaw_test" target="1.8" />
+      <module name="Logger_main" target="1.8" />
+      <module name="Logger_test" target="1.8" />
+      <module name="LoggerCommon_main" target="1.8" />
+      <module name="LoggerCommon_test" target="1.8" />
+      <module name="LoggerViewer_main" target="1.8" />
+      <module name="LoggerViewer_test" target="1.8" />
+      <module name="MIDClient_main" target="1.8" />
+      <module name="MIDClient_test" target="1.8" />
+      <module name="MIDCommon_main" target="1.8" />
+      <module name="MIDCommon_test" target="1.8" />
+      <module name="Misha-Platform_main" target="1.8" />
+      <module name="Misha-Platform_test" target="1.8" />
+      <module name="MishaCache_main" target="1.8" />
+      <module name="MishaCache_test" target="1.8" />
+      <module name="MishaDB_main" target="1.8" />
+      <module name="MishaDB_test" target="1.8" />
+      <module name="MishaDBCold_main" target="1.8" />
+      <module name="MishaDBCold_test" target="1.8" />
+      <module name="MishaGlobal_main" target="1.8" />
+      <module name="MishaGlobal_test" target="1.8" />
+      <module name="MishaID_main" target="1.8" />
+      <module name="MishaID_test" target="1.8" />
+      <module name="MishaLogger_main" target="1.8" />
+      <module name="MishaLogger_test" target="1.8" />
+      <module name="MishaNoSqlDB_main" target="1.8" />
+      <module name="MishaNoSqlDB_test" target="1.8" />
+      <module name="MishaScheduler_main" target="1.8" />
+      <module name="MishaScheduler_test" target="1.8" />
+      <module name="MishaServer_main" target="1.8" />
+      <module name="MishaServer_test" target="1.8" />
+      <module name="MishaTaskHandler_main" target="1.8" />
+      <module name="MishaTaskHandler_test" target="1.8" />
+      <module name="MJSON_main" target="1.8" />
+      <module name="MJSON_test" target="1.8" />
+      <module name="RESTServer_main" target="1.8" />
+      <module name="RESTServer_test" target="1.8" />
+      <module name="SocketServer_main" target="1.8" />
+      <module name="SocketServer_test" target="1.8" />
+      <module name="TaskBroker_main" target="1.8" />
+      <module name="TaskBroker_test" target="1.8" />
+      <module name="WebClient_main" target="1.8" />
+      <module name="WebClient_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

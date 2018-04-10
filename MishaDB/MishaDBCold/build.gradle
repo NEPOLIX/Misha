@@ -1,0 +1,43 @@
+group 'com.nepolix.misha.db.cold'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+repositories {
+//    flatDir {
+//        dirs 'lib'
+//    }
+    mavenCentral()
+}
+
+jar {
+    zip64 true
+    manifest {
+        attributes 'Main-Class': 'com.nepolix.misha.db.cold.storage.server.ColdDBStorageServer'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+//    compile name: 'AthenaJDBC41-1.1.0'
+    compile files('lib/AthenaJDBC41-1.1.0.jar')
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+    compile(project(':MishaDB')) {
+        exclude module: ':MishaServer:RESTServer'
+    }
+
+    compile "com.amazonaws:aws-java-sdk:1.11.+"
+}

@@ -1,0 +1,24 @@
+If you are trying to re-build the image then run these two before creating the image
+
+sudo systemctl enable rc-local
+sudo systemctl enable rc-local.service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo systemctl start rc-local.service
+sudo systemctl status rc-local.service
+
+#https://www.linuxbabe.com/linux-server/how-to-enable-etcrc-local-with-systemd

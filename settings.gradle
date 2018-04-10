@@ -1,0 +1,56 @@
+/****************************************************************************************
+ * Copyright © 2016-7532 HEX, Inc. [7EPOLIX]-(Behrooz Shahriari)                        *
+ *           All rights reserved.                                                       *
+ *                                                                                      *
+ *     The source code, other & all material, and documentation                         *
+ *     contained herein are, and remains the property of HEX Inc.                       *
+ *     and its suppliers, if any. The intellectual and technical                        *
+ *     concepts contained herein are proprietary to HEX Inc. and its                    *
+ *     suppliers and may be covered by U.S. and Foreign Patents, patents                *
+ *     in process, and are protected by trade secret or copyright law.                  *
+ *     Dissemination of the foregoing material or reproduction of this                  *
+ *     material is strictly forbidden forever.                                          *
+ ****************************************************************************************/
+
+rootProject.name = 'Misha-Platform'
+include 'MishaTaskHandler'
+
+//MishaServer
+include 'MishaServer'
+include 'MishaServer:RESTServer'
+findProject(':MishaServer:RESTServer')?.name = 'RESTServer'
+include 'MishaServer:SocketServer'
+findProject(':MishaServer:SocketServer')?.name = 'SocketServer'
+
+include 'WebClient'
+include 'MJSON'
+
+//MishaID
+include 'MishaID'
+include 'MishaID:MIDClient'
+findProject(':MishaID:MIDClient')?.name = 'MIDClient'
+include 'MishaID:MIDCommon'
+findProject(':MishaID:MIDCommon')?.name = 'MIDCommon'
+
+//Logger
+include 'MishaLogger'
+include 'MishaLogger:Logger'
+findProject(':MishaLogger:Logger')?.name = 'Logger'
+include 'MishaLogger:LoggerCommon'
+findProject(':MishaLogger:LoggerCommon')?.name = 'LoggerCommon'
+
+include 'MishaScheduler'
+include 'MishaGlobal'
+
+include 'MishaDB'
+include 'MishaDB:MishaNoSqlDB'
+findProject(':MishaDB:MishaNoSqlDB')?.name = 'MishaNoSqlDB'
+include 'MishaDB:MishaDBCold'
+findProject(':MishaDB:MishaDBCold')?.name = 'MishaDBCold'
+include 'MishaDB:MishaCache'
+findProject(':MishaDB:MishaCache')?.name = 'MishaCache'
+
+include 'MishaLogger:LoggerViewer'
+findProject(':MishaLogger:LoggerViewer')?.name = 'LoggerViewer'
+
+

@@ -1,0 +1,37 @@
+group 'com.nepolix.misha'
+version '3.0.1411'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+//FAST BUILD:
+//gradle --daemon  --build-cache --configure-on-demand build misha
+
+task preBuild(type: Exec) {
+    executable "sh"
+    args "-c", "sh clean.sh"
+}
+build.dependsOn preBuild
+
+evaluationDependsOnChildren();
+task misha(type: Exec) {
+    executable "sh"
+    args "-c", "sh build.sh"
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

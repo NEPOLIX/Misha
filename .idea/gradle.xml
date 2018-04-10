@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MJSON" />
+            <option value="$PROJECT_DIR$/MishaDB" />
+            <option value="$PROJECT_DIR$/MishaDB/MishaCache" />
+            <option value="$PROJECT_DIR$/MishaDB/MishaDBCold" />
+            <option value="$PROJECT_DIR$/MishaDB/MishaNoSqlDB" />
+            <option value="$PROJECT_DIR$/MishaGlobal" />
+            <option value="$PROJECT_DIR$/MishaID" />
+            <option value="$PROJECT_DIR$/MishaID/MIDClient" />
+            <option value="$PROJECT_DIR$/MishaID/MIDCommon" />
+            <option value="$PROJECT_DIR$/MishaLogger" />
+            <option value="$PROJECT_DIR$/MishaLogger/Logger" />
+            <option value="$PROJECT_DIR$/MishaLogger/LoggerCommon" />
+            <option value="$PROJECT_DIR$/MishaLogger/LoggerViewer" />
+            <option value="$PROJECT_DIR$/MishaScheduler" />
+            <option value="$PROJECT_DIR$/MishaServer" />
+            <option value="$PROJECT_DIR$/MishaServer/RESTServer" />
+            <option value="$PROJECT_DIR$/MishaServer/SocketServer" />
+            <option value="$PROJECT_DIR$/MishaTaskHandler" />
+            <option value="$PROJECT_DIR$/WebClient" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

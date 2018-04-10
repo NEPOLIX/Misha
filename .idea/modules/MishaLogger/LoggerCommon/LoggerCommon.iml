@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":MishaLogger:LoggerCommon" external.linked.project.path="$MODULE_DIR$/../../../../MishaLogger/LoggerCommon" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="com.nepolix.misha.logger.common" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../MishaLogger/LoggerCommon">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../MishaLogger/LoggerCommon/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../MishaLogger/LoggerCommon/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../MishaLogger/LoggerCommon/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

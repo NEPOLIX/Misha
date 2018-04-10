@@ -1,0 +1,10 @@
+3.1
+Support for Multi-region deployment with a cache-cluster per each region.
+
+3.0
+Support for MishaLogger
+Breaking MishaServer, MishaID
+
+2.0
+Support for Misha Cache Cluster
+Support for Aurora DB Cluster
