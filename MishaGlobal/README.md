@@ -23,4 +23,4 @@ MIIIIjANBgkqhkiG9w0BAQEFAAOCCA8AMIIICgKCCAEAsSUNnzx4Q9bZm2Bi0yFz
 
 #####AES
 Set `AES.GLOBAL_AES_KEY` to any random string with length of 16.
-`AES.GLOBAL_AES_KEY` must be unique and can't be changed later as it is used in various modules including [MishaDB]()
+`AES.GLOBAL_AES_KEY` must be unique and can't be changed later as it is used in various modules including [MishaDB](https://github.com/NEPOLIX/Misha/tree/master/MishaDB)

@@ -1,11 +1,11 @@
 # Misha ID
-MishaID is a universal ID generator that is utilized in [MishaDB]() module.
+MishaID is a universal ID generator that is utilized in [MishaDB](https://github.com/NEPOLIX/Misha/tree/master/MishaDB) module.
 Misha ID contains two sub-modules,
 * MIDClient, MishaID client with APIs to communicate with the MID server to generate MID.
 * MIDCommon, a common utils for MishaID server and MishaID client.
 
 #### MishaID Server
-Before deploying MishaID to your server at AWS, you need to setup <code>AWS_ACCESS_KEY</code> and <code>AWS_PRIVATE_KEY</code> in [Credentials](https://github.com/NEPOLIX/Misha) class.
+Before deploying MishaID to your server at AWS, you need to setup <code>AWS_ACCESS_KEY</code> and <code>AWS_PRIVATE_KEY</code> in [Credentials](https://github.com/NEPOLIX/Misha/blob/master/MishaID/src/main/java/com/nepolix/misha/id/core/Credentials.java) class.
 
 MishaID use AWS S3 bucket (`misha.id`) as backup to restore the latest `mid`s after server failure. 
 
